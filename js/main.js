@@ -5,3 +5,7 @@ function insrt(num) {
 function eql() {
     $('.calcu-display').val(eval($('.calcu-display').val()))
 }
+
+function c() {
+    $('.calcu-display').val('');
+}
